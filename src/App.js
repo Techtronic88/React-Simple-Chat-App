@@ -7,17 +7,15 @@ import './App.css';
 
 class App extends Component {
   render() {
-  return (
-    <div className="app">
-      
-      <MessageList />
-      <SendMessageForm />
-      <RoomList />
-      <NewRoomForm />
-
-    </div>
-  );
- }
-}
+     return (
+         <div className="app">
+           <MessageList />
+           <SendMessageForm />
+           <RoomList />
+           <NewRoomForm />
+         </div>
+       );
+     }
+  }
 
 export default App;
